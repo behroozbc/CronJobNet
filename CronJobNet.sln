@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B5E2DD73-FAE0-4C07-8DB5-CA8317CEF253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronJobNet", "src\CronJobNet\CronJobNet.csproj", "{96D6BD7F-1EE3-48A8-AEF7-7B0A64921C11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96D6BD7F-1EE3-48A8-AEF7-7B0A64921C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D6BD7F-1EE3-48A8-AEF7-7B0A64921C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D6BD7F-1EE3-48A8-AEF7-7B0A64921C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D6BD7F-1EE3-48A8-AEF7-7B0A64921C11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96D6BD7F-1EE3-48A8-AEF7-7B0A64921C11} = {B5E2DD73-FAE0-4C07-8DB5-CA8317CEF253}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6389BB0-1620-4C7E-9C66-CD7FFBEFD569}
+	EndGlobalSection
+EndGlobal
