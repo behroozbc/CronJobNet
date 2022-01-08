@@ -2,14 +2,13 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CronJobNet
-{
-    public interface ICronJob
-    {
-        string Name { get; }
-        Task ExecuteAsync(DateTime dateTime, CancellationToken cancellationToken);
+namespace CronJobNet;
 
-        event EventHandler<string> JobExecuting;
-        event EventHandler<string> JobExecuted;
-    }
+public interface ICronJob
+{
+    string Name { get; }
+    Task ExecuteAsync(DateTime dateTime, CancellationToken cancellationToken);
+
+    event EventHandler<string> JobExecuting;
+    event EventHandler<string> JobExecuted;
 }

@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace CronJobNet
+namespace CronJobNet;
+
+public interface ICronSchedule
 {
-    public interface ICronSchedule
-    {
-        bool IsValid(string expression);
-        bool IsTime(DateTime dateTime);
-    }
+    bool IsValid(string expression);
+    bool IsTime(DateTime dateTime);
 }
+
