@@ -189,7 +189,7 @@ namespace CronJobNet.Tests;
                 Console.WriteLine(DateTime.Now.ToString());
                 return Task.CompletedTask;
             }, null, "*/1 * * * *"));
-            d.Start(CancellationToken.None);
+            d.Start();
             //Task.Delay(60 * 1000).Wait();
         }
     }

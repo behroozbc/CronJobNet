@@ -83,4 +83,9 @@ public class CronDaemon : ICronDaemon
 
         return Task.Run(func, cancellationToken).ContinueWith(x => JobExecuted?.Invoke(this, name));
     }
+
+    public void Start()
+    {
+        Start(CancellationToken.None);
+    }
 }
